@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import Accordian from './components/Accordian';
 import './App.css';
 
 function App() {
