@@ -1,5 +1,6 @@
 import { useState } from "react";
-import data from "./data"
+import data from "./data";
+import "./style.css";
 
 //single selection accordian
 
@@ -12,6 +13,7 @@ export default function Accordian() {
     }
 
     return <div className="wrapper">
+        <button className="enableMS">Enable Multi-Selection</button>
         <div className="accordian">
             {
                 data && data.length > 0 ? 
